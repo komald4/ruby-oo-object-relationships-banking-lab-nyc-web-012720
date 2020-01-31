@@ -1,4 +1,4 @@
-# require_relative './bank_account.rb'
+ require_relative './bank_account.rb'
 
 
 class Transfer
@@ -15,6 +15,6 @@ class Transfer
   end
 
   def execute_transaction
-    @sender = @receiver
+    BankAccount = Transfer
   end
 end
