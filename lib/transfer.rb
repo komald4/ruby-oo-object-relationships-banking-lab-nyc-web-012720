@@ -11,7 +11,7 @@ class Transfer
   end
 
   def valid?
-    BankAccount
+    @status == "open"  && @balance > 0 ? true : false
   end
 
 end
