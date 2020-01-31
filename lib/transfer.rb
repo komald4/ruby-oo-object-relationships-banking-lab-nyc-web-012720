@@ -1,4 +1,4 @@
-require_relative './bank_account.rb'
+# require_relative './bank_account.rb'
 
 
 class Transfer
@@ -11,7 +11,7 @@ class Transfer
   end
 
   def valid?
-    @status == "closed"  && @balance > 0 ? true : false
+    sender.valid?  && reciever.valid? true : false
   end
 
 end
