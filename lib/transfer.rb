@@ -1,3 +1,6 @@
+
+
+
 class Transfer
   attr_accessor :sender, :receiver, :amount, :status
   def initialize(sender, receiver, amount)
@@ -8,7 +11,7 @@ class Transfer
   end
 
   def valid?
-    
+
   end
 
 end
