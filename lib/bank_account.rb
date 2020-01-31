@@ -9,7 +9,7 @@ class BankAccount
     @status = "open"
   end
 
-  def deposit (deposit_amouunt)
+  def deposit (deposit_amount)
 
   end
 
