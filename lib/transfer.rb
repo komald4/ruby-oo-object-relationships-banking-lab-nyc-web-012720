@@ -15,6 +15,6 @@ class Transfer
   end
 
   def execute_transaction
-    BankAccount.accounts = Transfer
+    BankAccount.name = Transfer
   end
 end
